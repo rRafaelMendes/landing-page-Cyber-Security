@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: Axiforma;
+}
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 4.54444px 4.54444px rgb(200, 212, 200);
+}
+.header-logo {
+    background-image: url(/asset/logo/cyber-security-logo.png);
+    height: 98px;
+    width: 219px;    
+}
+.title-header {
+    text-align: end;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: rgb(187, 90, 90);
+    span {
+        color: forestgreen;
+        opacity: 80%;
+        font-size: 1.5rem
+    
+    }
+}
+a.link-header {
+    margin: 0px 20px;
+    text-decoration: none;
+    font-weight: 1100;
+    color: grey;
+}
+a:link a:visited {
+git 
+}
+a:hover {
+    color: forestgreen;
+}
