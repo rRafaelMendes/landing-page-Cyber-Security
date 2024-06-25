@@ -10,6 +10,7 @@ body {
 }
 .interface1 {
     max-width: 1280px;
+    display: block;
     margin: 0 auto;
 
 }
@@ -53,33 +54,35 @@ section.season-page {
     height: 90vh;
     color:  rgb(30, 157, 120);
 }
-.season-page .interface1 {
-    display: flex;
+.season-page {
     align-items: center;
-    height: 100%;
+    display: flex;
 
-
-    
 }
 .season-page .interface1 p {
-    display: block;
-    max-width: 40%;
     font-weight: 800;
     font-size: 1.3rem;
-
+    max-width: 45%;
 }
 .season-page .interface1 h1 {
-    display: block;
-    max-width: 40%;
     font-size: 2rem;
 }
-.text-season1 {
-    gap: 15px;
-    display: grid;
+.text-season1 p,h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
 }
 .button-main {
     cursor: pointer;
     border-radius: 12px;
     padding: 10px;
-    
+    background-color: rgb(211, 68, 37);
+    border: none;
+    color: rgb(30, 157, 120);
+    font-size: 110%;
+    box-shadow: 0px 0px 10px 0px rgb(241, 69, 30);
+}
+.button-main:hover {
+    transform: scale(1.05);
+    color: rgb(69, 255, 190);
 }
