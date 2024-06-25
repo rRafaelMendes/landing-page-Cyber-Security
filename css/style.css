@@ -86,3 +86,10 @@ section.season-page {
     transform: scale(1.05);
     color: rgb(69, 255, 190);
 }
+.carrossel {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
